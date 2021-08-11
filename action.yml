@@ -1,0 +1,17 @@
+name: Planned maintenance variables
+
+description: Set values that will be used by the planned-maintenance action
+
+outputs:
+  branch-regexp:
+    description: "A branch that matches this pattern is considered a maintenance branch"
+  maintenance-window-start:
+    description: "Deny maintenance branches before this time, deny everything else after it"
+  maintenance-window-end:
+    description: "Deny maintenance branches after this time, deny everything else before it"
+  maintenance-url:
+    description: "URL with more information about this maintenace"
+
+runs:
+  using: "node12"
+  main: "index.js"
