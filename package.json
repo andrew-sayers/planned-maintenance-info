@@ -1,7 +1,7 @@
 {
   "name": "planned-maintenance",
   "version": "1.0.0",
-  "description": "Allow or deny branches based on the time and branch name",
+  "description": "Set values used by the 'planned-maintenance' action",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
