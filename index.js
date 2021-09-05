@@ -12,6 +12,7 @@ const outputs = {
     /* will set this key...       ... to this value */
     "maintenance-window-start"   : "2020-01-01T00:00:00Z",
     "maintenance-window-duration": 60*60 * 1000, // one hour
+    "maintenance-window-enabled" : true,
     "maintenance-url"            : `https://github.com/${owner}/${repo}/issues/${issue_id}`,
     "maintenance-steps"          : [
         { // each step consists of several actions, executed in parallel:

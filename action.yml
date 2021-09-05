@@ -7,6 +7,8 @@ outputs:
     description: "Time when the maintenance window will open.  After this point, the checklist will be enabled and the action will fail"
   maintenance-window-duration:
     description: "Number of milliseconds the maintenance window will remain open for"
+  maintenance-window-enabled:
+    description: "Whether to check the maintenance window at all"
   maintenance-url:
     description: "URL with more information about this maintenance, will be displayed in error output"
 
